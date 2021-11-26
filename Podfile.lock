@@ -1,0 +1,74 @@
+PODS:
+  - Alamofire (5.4.4)
+  - DLRadioButton (1.4.12)
+  - FSCalendar (2.8.2)
+  - KakaoSDK (2.8.3):
+    - KakaoSDKAuth (= 2.8.3)
+    - KakaoSDKCommon (= 2.8.3)
+    - KakaoSDKLink (= 2.8.3)
+    - KakaoSDKNavi (= 2.8.3)
+    - KakaoSDKStory (= 2.8.3)
+    - KakaoSDKTalk (= 2.8.3)
+    - KakaoSDKTemplate (= 2.8.3)
+    - KakaoSDKUser (= 2.8.3)
+  - KakaoSDKAuth (2.8.3):
+    - KakaoSDKCommon (= 2.8.3)
+  - KakaoSDKCommon (2.8.3):
+    - KakaoSDKCommon/Common (= 2.8.3)
+    - KakaoSDKCommon/Network (= 2.8.3)
+  - KakaoSDKCommon/Common (2.8.3)
+  - KakaoSDKCommon/Network (2.8.3):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.8.3)
+  - KakaoSDKLink (2.8.3):
+    - KakaoSDKCommon (= 2.8.3)
+    - KakaoSDKTemplate (= 2.8.3)
+  - KakaoSDKNavi (2.8.3):
+    - KakaoSDKCommon/Common (= 2.8.3)
+  - KakaoSDKStory (2.8.3):
+    - KakaoSDKUser (= 2.8.3)
+  - KakaoSDKTalk (2.8.3):
+    - KakaoSDKTemplate (= 2.8.3)
+    - KakaoSDKUser (= 2.8.3)
+  - KakaoSDKTemplate (2.8.3):
+    - KakaoSDKCommon/Common (= 2.8.3)
+  - KakaoSDKUser (2.8.3):
+    - KakaoSDKAuth (= 2.8.3)
+
+DEPENDENCIES:
+  - DLRadioButton (~> 1.4)
+  - FSCalendar
+  - KakaoSDK
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DLRadioButton
+    - FSCalendar
+    - KakaoSDK
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKLink
+    - KakaoSDKNavi
+    - KakaoSDKStory
+    - KakaoSDKTalk
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  KakaoSDK: 7511c6121a9934bd7cf0257ad5963a843f8c37de
+  KakaoSDKAuth: 36597989cec6dd54707c2fc6501091bb9e32e3f0
+  KakaoSDKCommon: b86ad0c899b93eaf0edb94c6deb5f0dbf7116398
+  KakaoSDKLink: 6bf7c20aeafac56d2b863023b1e1ace2b36dbc87
+  KakaoSDKNavi: 0971686e7183fe5a8d219c628b3548496f400fbc
+  KakaoSDKStory: 53dea855b389afa6c23893f5ff072c4cca1790f7
+  KakaoSDKTalk: 91f51840c2324b56593f980c78d6b8354f836330
+  KakaoSDKTemplate: 0526fe52476228ec0061912e20e50955466ca873
+  KakaoSDKUser: 7debff9ff539b095aa4858469163fed7e3bce73e
+
+PODFILE CHECKSUM: 61b81de5168c9c868d89f72c7e95f9d433360fe2
+
+COCOAPODS: 1.11.2
