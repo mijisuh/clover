@@ -1,7 +1,10 @@
 PODS:
   - Alamofire (5.4.4)
+  - AZSClient (0.2.6)
   - DLRadioButton (1.4.12)
   - FSCalendar (2.8.2)
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManagerSwift (6.5.9)
   - KakaoSDK (2.8.3):
     - KakaoSDKAuth (= 2.8.3)
     - KakaoSDKCommon (= 2.8.3)
@@ -34,17 +37,33 @@ PODS:
     - KakaoSDKCommon/Common (= 2.8.3)
   - KakaoSDKUser (2.8.3):
     - KakaoSDKAuth (= 2.8.3)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
+  - AZSClient
   - DLRadioButton (~> 1.4)
   - FSCalendar
+  - iOSDropDown
+  - IQKeyboardManagerSwift
   - KakaoSDK
+  - RxCocoa
+  - RxSwift
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AZSClient
     - DLRadioButton
     - FSCalendar
+    - iOSDropDown
+    - IQKeyboardManagerSwift
     - KakaoSDK
     - KakaoSDKAuth
     - KakaoSDKCommon
@@ -54,11 +73,18 @@ SPEC REPOS:
     - KakaoSDKTalk
     - KakaoSDKTemplate
     - KakaoSDKUser
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  AZSClient: efd576cabf56f97e38cb1b614739f4b0c1906392
   DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
   FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
   KakaoSDK: 7511c6121a9934bd7cf0257ad5963a843f8c37de
   KakaoSDKAuth: 36597989cec6dd54707c2fc6501091bb9e32e3f0
   KakaoSDKCommon: b86ad0c899b93eaf0edb94c6deb5f0dbf7116398
@@ -68,7 +94,11 @@ SPEC CHECKSUMS:
   KakaoSDKTalk: 91f51840c2324b56593f980c78d6b8354f836330
   KakaoSDKTemplate: 0526fe52476228ec0061912e20e50955466ca873
   KakaoSDKUser: 7debff9ff539b095aa4858469163fed7e3bce73e
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 61b81de5168c9c868d89f72c7e95f9d433360fe2
+PODFILE CHECKSUM: b8dec71e0cd821f4a8603f5dc7cf2e00ff74959a
 
 COCOAPODS: 1.11.2

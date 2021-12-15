@@ -9,4 +9,10 @@ target 'Clover' do
   pod 'FSCalendar'
   pod 'DLRadioButton', '~> 1.4'
   pod 'KakaoSDK'
+  pod 'SwiftyJSON'
+  pod 'iOSDropDown'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'IQKeyboardManagerSwift'
+  pod 'AZSClient'
 end
